@@ -22,12 +22,13 @@
 
 body {
     background-color: var(--primary-white);
-    font-family: var(--font-roboto);
     color: var(--text-color-grey);
+    font-family: var(--font-roboto);
 }
 
 /*-----------------------LOGO TOP & FOOTER-------------------------*/
 .logo {
+    color: var(--accent-color);
     font-family: var(--font-rale);
     font-size: 26px;
     font-weight: 700;
@@ -42,10 +43,6 @@ body {
 
 .logo-footer {
     color: var(--primary-white);
-}
-
-.logo-web {
-    color: var(--accent-color);
 }
 
 /*-----------------------HEADER-------------------------*/
@@ -108,4 +105,8 @@ address {
 .ftr-address .address-link:hover,
 .ftr-address .address-link:focus {
     color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
 }
