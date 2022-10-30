@@ -1,6 +1,6 @@
 /*-----------------------HERO SECTION-------------------------*/
 .hero {
-    background-color: #2F303A;
+    background-color: var(--hero-bg);
 }
 .hero .hero-title {
     color: var(--primary-white);
@@ -48,14 +48,20 @@
 }
 
 /*-----TEAM-----*/
-.team .team-title {
+.team {
+    background-color: var(--bg-light-grey);
+}
+.team-list li {
+    background-color: var(--primary-white);
+}
+.team-list .team-title {
     color: var(--text-color-darkgrey);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
 }
-.team .team-text {
+.team-list .team-text {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -78,6 +84,9 @@
     color:var(--primary-white);
 }
 /*-----PROJECTS CARDS-----*/
+.projects li {
+    background-color: var(--primary-white);
+}
 .projects a {
     text-decoration: none;
 }
