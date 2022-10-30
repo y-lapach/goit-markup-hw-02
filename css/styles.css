@@ -24,7 +24,7 @@
     margin: 0 auto;
 }
 
-/*-----------------------Section-------------------------*/
+/*-----------------------SECTION-------------------------*/
 .section-title {
     color: var(--text-color-darkgrey);
     font-weight: 700;
@@ -33,6 +33,8 @@
     text-align: center;
     
 }
+
+/*-----FEATURES-----*/
 .features .title {
     color: var(--text-color-darkgrey);
     font-weight: 700;
@@ -43,4 +45,18 @@
 .features .text {
     font-size: 14px;
     line-height: 1.7;
+}
+
+/*-----TEAM-----*/
+.team .team-title {
+    color: var(--text-color-darkgrey);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.team .team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
