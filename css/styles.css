@@ -60,3 +60,36 @@
     line-height: 1.19;
     text-align: center;
 }
+
+/*-----------------------PORTFOLIO-------------------------*/
+/*-----FILTER BUTTONS-----*/
+.filter .filter-btn {
+    background-color: var(--bg-light-grey);
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;   
+    text-align: center;
+    border-radius: 4px;
+}
+.filter .filter-btn:hover,
+.filter .filter-btn:focus {
+    background-color: var(--accent-color);
+    color:var(--primary-white);
+}
+/*-----PROJECTS CARDS-----*/
+.projects a {
+    text-decoration: none;
+}
+.projects .projects-title {
+    color: var(--text-color-darkgrey);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.projects .projects-text {
+    color: var(--text-color-grey);
+    font-size: 16px;
+    line-height: 1.9;
+}
